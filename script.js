@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const apiKey = "6812271205319ca74d9c28c6c8cd8c02"; // ⚠️ Replace with a secure API Key
-    const city = "Chennai"; // Can be changed to user-input location
+    const apiKey = "6812271205319ca74d9c28c6c8cd8c02"; 
+    const city = "Chennai"; 
     const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     fetch(weatherUrl)
